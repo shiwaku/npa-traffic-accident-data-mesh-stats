@@ -1,0 +1,4 @@
+# CSVからGeoParquetの作成
+ogr2ogr -f "Parquet" honhyo_2019-2024_convert_add_mesh.parquet honhyo_2019-2024_convert_add_mesh.csv -oo X_POSSIBLE_NAMES=地点_経度（東経）_10進数 -oo Y_POSSIBLE_NAMES=地点_緯度（北緯）_10進数 -s_srs EPSG:4326 -t_srs EPSG:4326
+
+
