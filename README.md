@@ -18,6 +18,12 @@
   - 0～24歳, 25～34歳, 35～44歳, 45～54歳,  
     55～64歳, 65～74歳, 75歳以上, 不明  
 - メッシュ（3次～6次）ごとの事故件数を集計し、ポリゴン化  
+- 各種設定
+  - INPUT_CSV = "honhyo_2019-2024_convert_add_mesh.csv"
+  - MESH_COL  = "mesh_6"
+    - mesh_3: 1km mesh_4: 500m mesh_5: 250m mesh_6: 125mの指定が可能 
+  - AGE_COL   = "年齢（当事者B）"
+  - OUTPUT_FORMAT = "geoparquet"  # "geojson" / "geoparquet" / "both"
 - 出力形式:  
   - GeoJSON: `mesh_ageB_counts_*.geojson`  
   - GeoParquet: `mesh_ageB_counts_*.parquet`
