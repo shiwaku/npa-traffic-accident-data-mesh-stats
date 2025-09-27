@@ -7,7 +7,7 @@
 ## 機能概要
 
 ### 1. メッシュコード付与 (`1.jiko_add_meshcode.py`)
-- 入力: `honhyo_2019-2024_convert.csv`  
+- 入力: [honhyo_2019-2024_convert.csv ,1.4GB](https://xs489works.xsrv.jp/pmtiles-data/traffic-accident/honhyo_2019-2024_convert.csv)
 - 緯度・経度から地域メッシュコード（3次, 4次, 5次, 6次）を算出  
 - 範囲外の座標は `9999` を代入  
 - 出力: `honhyo_2019-2024_convert_add_mesh.csv`
