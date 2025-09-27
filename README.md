@@ -1,8 +1,6 @@
 # npa-traffic-accident-data-mesh-stats
 
-交通事故データを地域メッシュ単位で加工・集計し、GeoJSON / GeoParquet 形式で出力するツール群です。  
-対象データは日本の **警察庁交通事故統計（NPA）** を想定しています。  
-※本リポジトリは非公式プロジェクトです。
+警察庁（NPA）の交通事故統計情情報のオープンデータを地域メッシュ単位で加工・集計し、GeoJSON / GeoParquet 形式で出力するツール群です。  
 
 ---
 
@@ -28,10 +26,10 @@
 
 ## 必要なライブラリ
 
-- Python 3.9+
+- Python 3.12.4
 - [pandas](https://pandas.pydata.org/)  
 - [numpy](https://numpy.org/)  
-- [jismesh](https://github.com/geolonia/japanese-meshcode)  
+- [jismesh](https://pypi.org/project/jismesh/)  
 - （GeoParquet 出力時）`geopandas`, `shapely`, `pyarrow`
 
 インストール例：
